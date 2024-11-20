@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "New Application Job (v2)",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZBS_DEMO_JOB_CATALOG_V2"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "MD_EDATE",
+        "value": "20241101"
+      },
+      {
+        "name": "MD_ETIME",
+        "value": ""
+      },
+      {
+        "name": "MD_RADIO_DE",
+        "value": ""
+      },
+      {
+        "name": "MD_RADIO_EN",
+        "value": ""
+      },
+      {
+        "name": "MD_RADIO_FR",
+        "value": ""
+      },
+      {
+        "name": "MD_TEST",
+        "value": ""
+      },
+      {
+        "name": "MD_USER",
+        "value": "9980000172"
+      }
+    ],
+    "valueRangesParameters": [
+      {
+        "name": "MT_SYSTEM",
+        "valueRanges": []
+      }
+    ]
+  }
+}

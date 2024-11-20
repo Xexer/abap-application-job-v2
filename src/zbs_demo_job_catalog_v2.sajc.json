@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Application Job (v2) - Test",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "ZCL_BS_DEMO_JOB_EXECUTE_V2"
+  },
+  "sections": [
+    {
+      "name": "SEL",
+      "title": "Selection"
+    },
+    {
+      "name": "OPT",
+      "title": "Settings"
+    }
+  ],
+  "groups": [
+    {
+      "name": "GEN",
+      "title": "General",
+      "section": "SEL"
+    },
+    {
+      "name": "TIM",
+      "title": "Date/Time",
+      "section": "SEL"
+    },
+    {
+      "name": "OPT",
+      "title": "Settings",
+      "section": "OPT"
+    },
+    {
+      "name": "LANGU",
+      "title": "Language",
+      "section": "OPT"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "MT_SYSTEM",
+      "title": "System",
+      "group": "GEN",
+      "valueHelp": "ZBS_DEMO_JOB_SYSTEM",
+      "valueHelpType": "domain"
+    },
+    {
+      "name": "MD_USER",
+      "title": "Business User",
+      "group": "GEN",
+      "mandatory": true,
+      "screenElement": "listBox",
+      "valueHelp": "ZBS_I_DMOPARTNERVH",
+      "valueHelpType": "cdsView"
+    },
+    {
+      "name": "MD_EDATE",
+      "title": "Execution Date",
+      "group": "TIM"
+    },
+    {
+      "name": "MD_ETIME",
+      "title": "Execution Time",
+      "group": "TIM"
+    },
+    {
+      "name": "MD_TEST",
+      "title": "Test Run",
+      "group": "OPT",
+      "screenElement": "checkbox"
+    },
+    {
+      "name": "MD_RADIO_DE",
+      "title": "German",
+      "group": "LANGU",
+      "screenElement": "radioButton",
+      "radioButtonGroup": "LG"
+    },
+    {
+      "name": "MD_RADIO_EN",
+      "title": "English",
+      "group": "LANGU",
+      "screenElement": "radioButton",
+      "radioButtonGroup": "LG"
+    },
+    {
+      "name": "MD_RADIO_FR",
+      "title": "French",
+      "group": "LANGU",
+      "screenElement": "radioButton",
+      "radioButtonGroup": "LG"
+    }
+  ]
+}
