@@ -1,2 +1,3 @@
-# abap-application-job-v2
-Application Jobs v2 (2411)
+# Application Jobs v2
+
+Demo for the presentation of the new Application Jobs in the ABAP Environment. The new features are available since Release 2411.
